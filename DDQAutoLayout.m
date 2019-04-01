@@ -407,6 +407,9 @@ typedef NS_ENUM(NSUInteger, DDQAutoLayoutOriginPoint) {
             break;
     }
     
+    //清空布局的布局方式
+    view.horDirection = DDQAutoLayoutDirectionOrigin;
+    view.verDirection = DDQAutoLayoutDirectionOrigin;
     return targetOrigin;
     
 }

@@ -61,10 +61,11 @@ UIKIT_STATIC_INLINE DDQAutoLayout *DDQAutoLayoutMaker(__kindof UIView *_Nullable
 
 typedef NS_ENUM(NSUInteger, DDQAutoLayoutDirection) {
     
-    DDQAutoLayoutDirectionLTR,          //从左到右
-    DDQAutoLayoutDirectionRTL,          //从右到左
-    DDQAutoLayoutDirectionTTB,          //从上到下
-    DDQAutoLayoutDirectionBTT,          //从下到上
+    DDQAutoLayoutDirectionOrigin = 0,      //初始值
+    DDQAutoLayoutDirectionLTR,             //从左到右
+    DDQAutoLayoutDirectionRTL,             //从右到左
+    DDQAutoLayoutDirectionTTB,             //从上到下
+    DDQAutoLayoutDirectionBTT,             //从下到上
     DDQAutoLayoutDirectionCenter,
     DDQAutoLayoutDirectionCenterX,
     DDQAutoLayoutDirectionCenterY,
