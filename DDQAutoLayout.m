@@ -308,7 +308,7 @@ typedef NS_ENUM(NSUInteger, DDQAutoLayoutOriginPoint) {
         
     } else if (property == DDQLayoutPropertyCenterX) {
         
-        newPoint.x = (p.view == self.targetView.superview) ? CGRectGetMidX(p.view.bounds) : CGRectGetMaxX(p.view.frame);
+        newPoint.x = (p.view == self.targetView.superview) ? CGRectGetMidX(p.view.bounds) : CGRectGetMidX(p.view.frame);
         
     } else if (property == DDQLayoutPropertyTop) {
         
