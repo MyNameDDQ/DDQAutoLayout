@@ -40,6 +40,7 @@ typedef NS_ENUM(NSUInteger, DDQAutoLayoutOriginPoint) {
     }
     
     self.targetView = view;
+    self.targetView.frame = CGRectZero;
     
     return self;
     

@@ -31,6 +31,7 @@ typedef void(^DDQAutoLayoutFitViewScaleSize)(CGFloat scale);
 
 UIKIT_STATIC_INLINE DDQAutoLayout *DDQAutoLayoutMaker(__kindof UIView *_Nullable view);
 
+NS_DEPRECATED_IOS(1_0_0, 1_0_4, "建议使用新类DDQViewLayoutInstall")
 @interface DDQAutoLayout : NSObject
 
 /**

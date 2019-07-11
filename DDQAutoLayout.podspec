@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DDQAutoLayout"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.ios.deployment_target = '8.0'
   s.summary      = "frame布局时的自适应工具"
   s.homepage     = "https://github.com/MyNameDDQ/DDQAutoLayout"
